@@ -1,0 +1,88 @@
+2022-05-27 12:13:04,642 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-05-27 12:13:04,651 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestFraudeApplication using Java 11.0.13 on DESKTOP-NILTSUQ with PID 21568 (C:\Users\Usuario\Desktop\Archivos de clases MircoS\RESTFraude\target\classes started by Usuario in C:\Users\Usuario\Desktop\Archivos de clases MircoS\RESTFraude)
+2022-05-27 12:13:04,653 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-27 12:13:04,707 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-27 12:13:04,708 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-27 12:13:05,708 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-27 12:13:05,946 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 228 ms. Found 1 JPA repository interfaces.
+2022-05-27 12:13:06,307 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=25b59d1f-da82-3239-90ad-6a5ed2024dee
+2022-05-27 12:13:07,248 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 0 (http)
+2022-05-27 12:13:07,260 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-05-27 12:13:07,261 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-27 12:13:07,261 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-05-27 12:13:07,408 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-27 12:13:07,408 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2700 ms
+2022-05-27 12:13:07,460 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-05-27 12:13:07,681 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-05-27 12:13:07,694 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fraudes'
+2022-05-27 12:13:07,886 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-27 12:13:07,958 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-05-27 12:13:08,170 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-27 12:13:08,322 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-27 12:13:09,071 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-27 12:13:09,080 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-27 12:13:09,223 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-27 12:13:09,354 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-27 12:13:11,115 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-27 12:13:11,366 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-27 12:13:11,447 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-auto-1"]
+2022-05-27 12:13:11,465 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 50740 (http) with context path '/api/v1/rest-fraudes'
+2022-05-27 12:13:11,466 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 50740
+2022-05-27 12:13:11,471 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-27 12:13:11,516 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-27 12:13:11,522 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-27 12:13:11,550 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-27 12:13:11,551 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-27 12:13:11,551 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-27 12:13:11,551 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-27 12:13:11,551 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-27 12:13:11,551 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-27 12:13:11,551 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-27 12:13:12,009 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-27 12:13:12,011 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-27 12:13:12,014 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-27 12:13:12,019 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653671592018 with initial instances count: 0
+2022-05-27 12:13:12,030 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-FRAUDES with eureka with status UP
+2022-05-27 12:13:12,030 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1653671592030, current=UP, previous=STARTING]
+2022-05-27 12:13:12,032 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-FRAUDES/api-fraudes:43cd10d9b3e0c2785a493c1fd9f0c19c: registering service...
+2022-05-27 12:13:12,141 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-FRAUDES/api-fraudes:43cd10d9b3e0c2785a493c1fd9f0c19c - registration status: 204
+2022-05-27 12:13:12,148 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestFraudeApplication in 8.087 seconds (JVM running for 9.366)
+2022-05-27 12:13:42,025 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-05-27 12:13:42,026 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-05-27 12:13:42,026 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-05-27 12:13:42,027 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-05-27 12:13:42,027 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-05-27 12:13:42,027 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-05-27 12:13:42,027 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-05-27 12:13:42,049 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-05-27 12:18:11,558 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:23:11,563 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:28:11,571 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:33:11,573 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:38:11,584 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:42:08,452 INFO org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-27 12:42:08,453 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-1-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-27 12:42:08,454 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-1-exec-1] Completed initialization in 1 ms
+2022-05-27 12:43:11,585 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:48:11,593 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:53:11,596 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 12:55:21,968 INFO com.ibm.academia.restapi.fraude.controladores.FraudeController [http-nio-auto-1-exec-6] error: com.ibm.academia.restapi.fraude.excepciones.IpBaneadaException: La ip 123.123.123.123 está baneada
+2022-05-27 12:58:11,600 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 13:03:11,603 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 13:08:11,614 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 13:13:11,623 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-27 13:13:23,787 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(67)-127.0.0.1] Application shutdown requested.
+2022-05-27 13:13:23,789 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(67)-127.0.0.1] Unregistering application API-FRAUDES with eureka with status DOWN
+2022-05-27 13:13:23,789 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(67)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1653675203789, current=DOWN, previous=UP]
+2022-05-27 13:13:23,790 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-FRAUDES/api-fraudes:43cd10d9b3e0c2785a493c1fd9f0c19c: registering service...
+2022-05-27 13:13:23,798 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-FRAUDES/api-fraudes:43cd10d9b3e0c2785a493c1fd9f0c19c - registration status: 204
+2022-05-27 13:13:23,899 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(67)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-27 13:13:23,900 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(67)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-27 13:13:24,116 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [RMI TCP Connection(67)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-27 13:13:24,117 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(67)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-05-27 13:13:24,121 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(67)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-05-27 13:13:24,121 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(67)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-05-27 13:13:27,128 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(67)-127.0.0.1] Unregistering ...
+2022-05-27 13:13:27,143 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(67)-127.0.0.1] DiscoveryClient_API-FRAUDES/api-fraudes:43cd10d9b3e0c2785a493c1fd9f0c19c - deregister  status: 200
+2022-05-27 13:13:27,147 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(67)-127.0.0.1] Completed shut down of DiscoveryClient
